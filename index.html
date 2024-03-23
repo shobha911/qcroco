@@ -1,0 +1,62 @@
+<!doctype html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="css/style.css">
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            clifford: '#da373d',
+          }
+        }
+      }
+    }
+  </script>
+</head>
+<body>
+
+    <!--header starts-->
+    <header class="text-gray-600 body-font bg-gray-200">
+        <div class="container mx-auto flex flex-wrap p-5 flex-col md:flex-row items-center">
+          <a class="flex title-font font-medium items-center text-gray-900 mb-4 md:mb-0 logo">
+            <span class="ml-3 text-xl"><span class="first">Q</span>croxo</span>
+          </a>
+          <nav class="md:ml-auto md:mr-auto flex flex-wrap items-center text-base justify-center">
+            <a class="mr-5 hover:text-gray-900 cursor-pointer active" href="index.html">Home</a>
+            <a class="mr-5 hover:text-gray-900 cursor-pointer" href="about.html">About</a>
+            <a class="mr-5 hover:text-gray-900 cursor-pointer" href="clint.html">Clint form</a>
+            <a class="mr-5 hover:text-gray-900 cursor-pointer" href="contect.html">Contact</a>
+          </nav>
+          <button class="inline-flex items-center bg-gray-100 border-0 py-1 px-3 focus:outline-none hover:bg-gray-200 rounded text-base mt-4 md:mt-0">More Information
+            <svg fill="none" stroke="currentColor" stroke-linecap="round" stroke-linejoin="round" stroke-width="2" class="w-4 h-4 ml-1" viewBox="0 0 24 24">
+              <path d="M5 12h14M12 5l7 7-7 7"></path>
+            </svg>
+          </button>
+        </div>
+      </header>
+
+      <!--home starts-->
+      <section class="text-gray-600 body-font">
+        <div class="container mx-auto flex px-20 py-24 md:flex-row flex-col items-center">
+          <div class="main-text lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center">
+            <h1 class="title-font sm:text-4xl text-3xl mb-4 font-large text-gray-900">Welcome To
+              <br class="hidden lg:inline-block"><span class="first">Q</span>croxo</span>
+            </h1>
+            <p class="mb-8 leading-relaxed">We are ready to create every type of Applicatios designing, website designing, application development, web development Mobile App development and Custom Software solution for you.</p>
+            <div class="flex justify-center">
+              <button class="inline-flex text-white bg-indigo-500 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg">Button</button>
+              <button class="ml-4 inline-flex text-gray-700 bg-gray-100 border-0 py-2 px-6 focus:outline-none hover:bg-gray-200 rounded text-lg">Button</button>
+            </div>
+          </div>
+          <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+            <img class="object-cover object-center rounded" alt="hero" src="img/th.jpg">
+          </div>
+        </div>
+      </section>
+
+</body>
+</html>
